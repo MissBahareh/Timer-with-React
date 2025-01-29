@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Lora;
+  src: url(../src/assets/font/Lora-VariableFont_wght.ttf);
+  src: url(../src/assets/font/Lora-Italic-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lora;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.808);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
